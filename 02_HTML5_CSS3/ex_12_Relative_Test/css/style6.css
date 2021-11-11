@@ -1,0 +1,7 @@
+@charset "utf-8"
+*{margin: 0; padding: 0;}
+.border-tip{width: 400px; padding: 20px; color: white; background: #222; margin: 50px auto; position: relative;}
+.top{position: absolute; top: -10px; left: 50%; transform: translateX(-50%); border-bottom: 10px solid darksalmon; border-left: 10px solid transparent;  border-right: 10px solid transparent }
+.bottom{position: absolute; top: 10px; left: 50%; transform: translateX(-50%); border-top: 10px solid blue; border-left: 10px solid transparent;  border-right: 10px solid transparent }
+.left{position: absolute;  top: 50%; left:-10px ; transform: translateY(-50%); border-top: 10px solid transparent; border-bottom: 10px solid transparent; border-left;: 10px solid red}
+.right{position: absolute; top: 50%; left: -10px; transform:translateY(); border-top: 10px solid transparent; border-bottom: transparent; border-right: green solid 10px; }

@@ -1,0 +1,5 @@
+body{text-align: center;}
+h1{background-color: purple; color: white; padding: 10px 0;}
+a{background-color: black; color: white;} 
+li{margin-bottom: 3px; list-style: none;}
+#Toy1,#Toy2,#Toy3{background-color: red; color: white; font-size: 14px; padding: 5px 0;}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미디어 쿼리</title>
+    <style>
+        body{background: black; color: white;}
+        /* 화면너비 0~128 */
+        @media screen and (max-width: 1280px){
+            body{background: blue; color: white;}
+        }
+        @media screen and (max-width: 1024px){
+            body{background: rgb(238, 8, 19); color: white;}
+        }
+        @media screen and (max-width: 960px){
+            body{background: rgb(236, 128, 3); color: white;}
+        }
+        @media screen and (max-width: 768px){
+            body{background: rgb(2, 248, 56); color: white;}
+        }
+        @media screen and (max-width: 600px){
+            body{background: rgb(248, 2, 187); color: white;}
+        }
+
+    </style>
+</head>
+<body>
+    <h1>미디어쿼리</h1>
+    <p>미디어쿼리는 화면 크기에 따른 각각의 특정 값을 저장하여 여러가지 화면을 구현하는 기술을 말함</p>
+    <p>@media only screen and (조건문) and (실행문)</p>
+    <ul>
+        <li>@media :미디어의 시작점을 표시</li>
+        <li>only :미디어쿼리 구문을 해석하는 명령어(생략이 가능)</li>
+        <li>screen: 컴퓨터 스크린에서 사용할 css를 정의</li>
+        <li>and </li>
+    </ul>
+
+</body>
+</html>

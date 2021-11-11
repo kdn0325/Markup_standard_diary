@@ -1,0 +1,20 @@
+@charset "utf-8";
+.fl{float: left;}
+#header{width: 100%; height: 95px; position: relative; top: 0; left: 0; background-color: #fff; }
+.nav{width: 1400px; height: 100%; margin: 0 auto;}
+.nav>li{margin: 15px 40px;}
+.nav>li.freesamLogo{margin-left: 0;}
+.nav>li.freesamLogo>a{padding: 5px;}
+.nav>li>a{display: block; color: black; font-size: 1.2em; font-weight: bold; padding: 30px 15px;}
+.nav>li>.width100{display: none; position: absolute; top: 95px; left: 20%; background:#c9c9c9;}
+.nav>li:hover>.width100{display: block;}
+.nav>li>.width100>ul{width: 1400px; margin: 0 auto;}
+.nav>li>.width100>ul>li{padding-left: 30px;}
+.nav>li>.width100>ul>li>h2{text-align: left; font-size: 1.5em; color: blue;}
+.nav>li>.width100>ul>li>img{display: block; margin: 20px auto;}
+.nav>li>.width100>ul>li>h3{text-align: left; font-size: 1.2em;}
+.nav>li>.width100>ul>li>h3>a{line-height: 200%;}
+.nav>li>.width100>ul>li>dl{font-weight: bold; border-right: 1px solid #333; }
+.nav>li>.width100>ul>li>dl>dd>a{line-height: 170%;}
+.nav>li>.width100>ul>li>dt>a{}
+.nav>li>.width100>ul>li>dd>a{background: url(../images/blet.png) no-repeat center;}

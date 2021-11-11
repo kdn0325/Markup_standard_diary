@@ -1,0 +1,30 @@
+/* 레이아웃 */
+#header { width: 100%; height: auto; position: fixed; z-index: 999; } 
+#content { width: 100%; } 
+
+/* 머리말 메뉴 */
+#menu { width: 100%; height: 105px; background: rgba(255, 255, 255, 0.8); position: relative; } 
+#menu .gnb { width: 1280px; margin: 0 auto; } 
+#menu .gnb > a { display: block; padding-top: 20px; float: left; } 
+#menu .gnb #nav { float: right; } 
+#menu .gnb #nav .bg_blue { position: absolute; width: 100%; height: 0; top: 105px; left: 0; background-color: #0b8dda; opacity: 0.9; transition: height 0.5s; } 
+#menu .gnb #nav:hover .bg_blue { height: 215px; } 
+#menu .gnb #nav .bg_blue span { width: 1280px; height: inherit; background: url(../image/gnb_blind_bg.png) no-repeat 200px bottom; margin: 0 auto; display: block; } 
+#menu .gnb #nav .bg_menu { position: relative; height: 105px; width: 900px; overflow: hidden; right: 0; transition: height 0.5s; } 
+#menu .gnb #nav:hover .bg_menu { height: 320px; } 
+
+#menu .gnb #nav .bg_menu ul { width: 100%; } 
+#menu .gnb #nav .bg_menu ul > li { width: 20%; text-align: center; } 
+#menu .gnb #nav .bg_menu > ul > li > a { display: block; color: #1e1e1e; height: auto; font-size: 20px; font-weight: bold; padding: 37px 0; } 
+#menu .gnb #nav .bg_menu > ul > li.menu01 > a { color: rgb(170, 108, 108); } 
+#menu .gnb #nav .bg_menu > ul > li.menu02 > a { color: rgb(22, 189, 133); } 
+#menu .gnb #nav .bg_menu > ul > li.menu03 > a { color: rgb(78, 62, 165); } 
+#menu .gnb #nav .bg_menu > ul > li.menu04 > a { color: rgb(48, 170, 119); } 
+#menu .gnb #nav .bg_menu > ul > li.menu05 > a { color: rgba(197, 232, 71, 0.767); } 
+#menu .gnb #nav .bg_menu > ul > li .towD { padding-top: 10px; } 
+#menu .gnb #nav .bg_menu > ul > li .towD li { padding: 0 20px; box-sizing: border-box; text-align: left; width: 100%; } 
+#menu .gnb #nav .bg_menu > ul > li .towD li a { display: block; color: #fff; font-size: 15px; padding: 5px 0; } 
+
+#menu .gnb #nav .bg_menu > ul > li:hover > ul { background: rgba(0, 86, 150, 0.5); height: 215px; } 
+/* 본문 */
+#content img { display: block; margin: 0 auto; } 

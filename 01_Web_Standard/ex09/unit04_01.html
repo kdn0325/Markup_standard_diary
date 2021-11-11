@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+	<title>이미지 배치하고 롤오버시 블러 효과 적용하기</title>
+	<meta charset="UTF-8">
+	<style type="text/css">
+	/* *{margin: 0; padding: 0;}
+	body{}
+	h1{text-align: center; color: white; text-shadow: wheat 5px 5px 5px; font-style: italic;}
+	#bookList{width: 500px; margin: 0 auto; text-align: center; border: palegoldenrod 5px solid; border-radius: 10px; margin-top:50px}
+	#bookList ul{list-style: none; overflow: hidden; margin: 0 auto; padding: 50px;}
+	#bookList li{float: left; width: 107px ; height: 300px; position: relative; text-align: center; padding-right: 10px; margin: 0 auto;}
+	#bookList img{width: 100%; border:palegoldenrod } */
+	*{margin:0; padding: 0;}
+	body{margin-top: 30px;}
+	h1{text-align: center; margin-bottom: 20px; font-size: 2em; color: white; text-shadow: 0 0 10px rgb(139, 128, 128); font-style: italic;}
+	#bookList{background: url(./images/book_bg.png) no-repeat; width: 498px; height: 246px; margin: 0 auto; border: 5px solid #ddd; border-radius: 30px; box-shadow: 0 0 10px #666;}
+	#bookList ul{list-style: none; padding-top: 25px; padding-left: 20px;}
+	#bookList ul li:not(:last-child){ float: left; margin-right: 65px;}
+	#bookList ul li:hover a span img{box-shadow: 0 0 50px green;}
+
+	</style>
+</head>
+<body>
+	<h1>New Book</h1>
+	<div id="bookList">
+		<ul>
+			<li><a href="#"><span><img src="images/book1.png" width="107" height="156" alt="book1" class="frame"/><span class="hit"></span></span></a></li>
+			<li><a href="#"><span><img src="images/book2.png" width="107" height="156" alt="book2" class="frame"/><span class="hit"></span></span></a></li>
+			<li><a href="#"><span><img src="images/book3.png" width="107" height="156" alt="book3" /><span class="hit"></span></span></a></li>
+		</ul>
+	</div>
+</body>
+</html>

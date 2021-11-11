@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex 크기 변경</title>
+    <style>
+        .container{width: 90%; height: 500px; margin: 20px auto; border: 5px solid #ccc; display: flex;}
+        .container div{width: 500px; height: 300px;}
+        /* .container div:nth-child(1){background-color: red; flex-grow: 1;}
+        .container div:nth-child(2){background-color: orange; flex-grow: 0;}
+        .container div:nth-child(3){background-color: yellow; flex-grow: 1;} */
+        .container div:nth-child(1){background-color: red; flex-grow: 1; flex-shrink: 1; flex-basis: 0; flex: 1 1 auto;}
+        .container div:nth-child(2){background-color: orange; flex-grow: 0;  flex-shrink: 0; flex-basis: auto;}
+        .container div:nth-child(3){background-color: yellow; flex-grow: 1;  flex-shrink: 2; flex-basis: auto;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>item1</div>
+        <div>item2</div>
+        <div>item3</div>
+</body>
+</html>

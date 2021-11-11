@@ -1,0 +1,24 @@
+@charset "utf-8";
+.fl{float: left;}
+#header{width: 100%; height: 94px; background-color: #fff; position: relative; top: 0; left: 0; box-shadow: 0px 2px 2px 0 #c9c9c9;}
+.nav{width: 1400px; margin: 0 auto; ; height: 100%;}
+.nav li.freesetlogo{margin-left: 0;}
+.nav li.freesetlogo>a{padding: 0;}
+.nav>li{margin:0 38px;}
+.nav>li>a{display: block; color: rgb(109, 182, 26); font-size: 1.2em; font-weight: bold; padding: 37px 16px;}
+.nav>li>.width100{display: none; position: absolute; top: 93px; left: 0; width: 100%; background-color: #f2f2f2; box-shadow: 0 2px 2px #c9c9c9; padding: 20px 0;}
+.nav>li:hover>.width100{display: block;}
+.nav>li>.width100>ul{width: 1400px; margin: 0 auto;}
+.nav>li:hover a{color: #295a65;}
+.nav>li>.width100>ul>li{width: 200px; padding-left: 20px; border-left: 1px solid #c9c9c9;}
+.nav>li>.width100>ul>li:last-child{border-right: 1px solid #c9c9c9;}
+.nav>li>.width100>ul>li>h2{text-align: center; font-size: 1.5em; color: #295a65; padding-top: 5px;}
+.nav>li>.width100>ul>li>h2>a{font-weight: bold;}
+.nav>li>.width100>ul>li>img{display: block; margin: 20px auto;}
+.nav>li>.width100>ul>li>h3
+.nav>li>.width100>ul>li>h3>a{color: #097a84; font-size: 1em; margin-bottom: 3px; line-height: 200%; font-weight: bold;}
+.nav>li>.width100>ul>li>dl
+.nav>li>.width100>ul>li>dl>dt
+.nav>li>.width100>ul>li>dl>
+.nav>li>.width100>ul>li>dl>dd>a{color: #777; font-size: 0.8em; font-weight: bold; line-height: 170%;background: url(../images/blet.png) no-repeat center; padding-left: 10px;}
+.nav>li>.width100>ul>li>dl>dt>a{color: #333; }

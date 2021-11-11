@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가로 메뉴만들기</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        body{background: url(./menu1.jpg) no-repeat center center/100%;}
+        #menu_Bar{}
+        #menu_Bar ul{overflow: hidden; list-style: none;}
+        #menu_Bar ul li{float: left; margin-right: 1px;}
+        #menu_Bar ul li:hover a{color: white; border-bottom: 5px solid #ff9900; padding-bottom: 10px;}
+        #menu_Bar ul li a{display: block; padding:10px 10px 15px 10px; text-decoration: none; text-transform: uppercase; color: #666; background: #292929; font-weight: bold;}
+
+
+    </style>
+</head>
+<body>
+    <div id="menu_Bar">
+        <ul>
+            <li><a href="#">menu1</a></li>
+            <li><a href="#">menu2</a></li>
+            <li><a href="#">menu3</a></li>
+            <li><a href="#">menu4</a></li>
+            <li><a href="#">menu5</a></li>
+            <li><a href="#">menu6</a></li>
+        </ul>
+    </div>
+</body>
+</html>

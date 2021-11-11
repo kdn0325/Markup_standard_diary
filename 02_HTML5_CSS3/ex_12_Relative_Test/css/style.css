@@ -1,0 +1,18 @@
+@charset "utf-8";
+*{margin: 0; padding: 0;}
+body{color: white;}
+li{list-style: none;}
+a{text-decoration: none; color: white;}
+#mainHeader{width: 960px; height: 200px; background: green; position: relative; margin: 0 auto;}
+#mainHeader .title .heading{position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); }
+#mainHeader .title .heading h1{}
+.gnb{position: absolute; top: 5px; right: 10px;}
+.gnb ul{overflow: hidden;}
+.gnb ul li{float: left;}
+.gnb ul li a{display: block; padding: 2px 10px;}
+.gnb ul li a:hover{background: black;}
+
+.nav{}
+.nav ul{position: relative; top: 140px; left: 50%; float: left;}
+.nav ul li{position: relative; float: left;left: -50%;}
+.nav ul li a{display: block; padding: 20px 40px;}

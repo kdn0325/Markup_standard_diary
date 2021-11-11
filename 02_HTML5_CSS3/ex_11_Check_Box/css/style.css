@@ -1,0 +1,105 @@
+#wrap {
+  width: 800px;
+  margin: 0 auto;
+  background: rgb(245, 213, 207);
+}
+
+/* header */
+header {
+  height: 150px;
+  background: #f46075 url(../images/nav2.png) no-repeat right center;
+}
+header nav {
+  width: 70%;
+  margin-top: 50px;
+  float: left;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li {
+  float: left;
+  margin: 15px;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* section */
+section {
+  width: 580px;
+  float: left;
+}
+section h2 {
+  font-size: 1.5em;
+}
+section article {
+  width: 250px;
+  height: 200px;
+  margin: 5px;
+  padding: 10px;
+  border: 3px solid #8a8a7b;
+  float: left;
+  overflow-y: scroll;
+  transition: all 2s;
+}
+section article.at1:hover {
+  background: green;
+  border: 3px solid green;
+}
+section article.at2:hover {
+  background: blue;
+  border: 3px solid blue;
+}
+section article.at3:hover {
+  background: red;
+  border: 3px solid red;
+}
+section article.at4:hover {
+  background: yellow;
+  border: 3px solid yellow;
+}
+
+/* section article input[type="checkbox"]:checked ~ .check {
+  height: 0px;
+} */
+
+input[type="checkbox"]:checked ~ .check {
+  height: 0;
+}
+
+section article h3 {
+  display: inline;
+  font-size: 1em;
+}
+section article .check {
+  width: 230px;
+  height: 220px;
+  transition: 1s;
+  overflow: hidden;
+}
+/* aside */
+aside {
+  width: 200px;
+  float: right;
+  margin-top: 77px;
+  background: #fff;
+  border: 5px solid #8a8a7b;
+}
+aside img {
+  display: block;
+  margin: 0 auto;
+}
+/* footer */
+footer {
+  width: 100%;
+  clear: both;
+  background: #aaa;
+  text-align: center;
+}
+
+footer p {
+  padding: 20px;
+}

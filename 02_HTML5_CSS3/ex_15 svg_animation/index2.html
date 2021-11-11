@@ -1,0 +1,20 @@
+<xml version="1.0" encoding="utf-8">
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+viewBox="0 0 600 200" width ="600" height="200">
+<line stroke-dasharray="200" stoke-dashoffset="0" x1="0" y1="20" x2="600"y2="20"></line>
+<line stroke-dasharray="200"  stoke-dashoffset="50" x1="" y1="40" x2="600"y2="40"></line>
+<line stroke-dasharray="200"  stoke-dashoffset="100" x1="0" y1="80" x2="600"y2="60"></line>
+<line class="lins" stroke-dasharray="200"  stoke-dashoffset="200" x1="0" y1="100" x2="600"y2="100"></line>
+</svg>
+
+<style>
+    *{margin: 0; padding: 0;}
+    svg{background-color: red; width: 500px; margin: 0 auto; display: block;}
+    line{stroke: black; stroke-width: 2px;}
+    .lins{animation: dash 2s linear forwards infinite;}
+    @keyframes dash{
+        from{stoke-dashoffset:600} 
+        to{stoke-dashoffset:0}
+    }
+</style>

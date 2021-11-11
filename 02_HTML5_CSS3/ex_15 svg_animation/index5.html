@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{margin: 0; padding: 0; background-color: skyblue;}
+        .box{position: absolute; top: 50%; left: 50%; width: 400px; height: 400px; transform: translate(-50%,-50%); background-color: thistle; border: 2px solid #ddd; box-shadow: 0 20px 50px #ccc; box-sizing: border-box;}
+        .content{position: absolute; top: 15px; left: 15px; right: 15px; bottom: 15px; border: 2px solid #ffeb3b; padding: 30px; text-align: center;}
+        h1{color: #fff; font-size: 30px; margin-bottom: 10px;}
+        p{color: #fff;}
+        svg,rect{position: absolute; top: 0; left: 0; width: 100%; height: 100%; fill: transparent;}
+        rect{stroke: red; stroke-width: 8px; stroke-dasharray: 400; animation: ani 3s linear infinite;}
+        @keyframes ani{
+            0%{stroke-dasharray: 800;}
+            100%{stroke-dasharray: 0;}
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <svg><rect></rect></svg>
+        <div class="content">
+            <h1>SVG</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore expedita, quis laborum totam et velit consectetur fuga facere ad soluta corporis! Dignissimos aut voluptatibus eos minus sequi placeat provident quas?</p>
+        </div>
+    </div>
+</body>
+</html>

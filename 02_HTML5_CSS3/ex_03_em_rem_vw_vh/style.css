@@ -1,0 +1,13 @@
+*{margin: 0; padding: 0;}
+html{height: 100%;}
+body{font-size: 12px; /*  height: 100%;*/ } 
+:root{font-size: 18px;}
+.wrap_clearfix{background-color:red; }
+.wrap_clearfix::after{content: ""; display: block; clear:both;}
+.box{float: left; margin-right: 20px; background-color: blue; color: white; text-align: center; }
+.box.fixel{width: 160px; height: 160px;}
+.box.em{width: 10em; height: 10em;}
+.box.rem{width: 12rem; height: 10rem;}
+.wrap{font-size: 10px;} 
+/* em은 부모기준 rem은 root 기준 */
+p{width: 100%; height: 100vh; font-size: 1.5rem; background-color: chartreuse;}

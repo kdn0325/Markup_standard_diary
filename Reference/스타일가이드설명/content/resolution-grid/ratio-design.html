@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="ko">
+    
+<!-- Mirrored from styleguide.co.kr/content/resolution-grid/ratio-design.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Aug 2020 11:41:16 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        
+		<meta name="keywords" content="리메인, remain, 리메인 강의, 리메인 웹, 리메인 웹 디자인, 웹 디자인, 스타일가이드, 디자인 시스템, 웹 스타일 가이드, 웹 포트폴리오, 웹 포폴, 웹 디자인 학원">
+        
+        <meta property="og:url" content="../../index-2.html">
+        <meta property="og:title" content="리메인 스타일가이드">
+        <meta property="og:type" content="website">
+
+        <meta property="og:image" content="../../imgs/share-cover.png">
+        <meta property="og:description" content="웹 디자이너를 위한 웹 스타일 가이드">
+        <meta name="description" content="웹 디자이너를 위한 웹 스타일 가이드">            
+        
+        <title>Remain Style Guide</title>
+        
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">        
+        <link rel="stylesheet" href="../../font/NanumSquare/nanumsquare.css">
+        <link rel="stylesheet" href="../../css/style.css">
+        
+		<!-- Facebook Pixel Code -->
+		<script>
+		  !function(f,b,e,v,n,t,s)
+		  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		  n.queue=[];t=b.createElement(e);t.async=!0;
+		  t.src=v;s=b.getElementsByTagName(e)[0];
+		  s.parentNode.insertBefore(t,s)}(window, document,'script',
+		  '../../../connect.facebook.net/en_US/fbevents.js');
+		  fbq('init', '2453665844676913');
+		  fbq('track', 'PageView');
+		</script>
+		<noscript><img height="1" width="1" style="display:none"
+		  src="https://www.facebook.com/tr?id=2453665844676913&amp;ev=PageView&amp;noscript=1"
+		/></noscript>
+		<!-- End Facebook Pixel Code -->   
+		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-65578599-3"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		
+		  gtag('config', 'UA-65578599-3');
+		</script>		     
+    </head>
+    <body>
+      <main>
+    <div class="wrapper index OPTION ratio-design">
+        <header class="header--mobile">
+	<a href="../../index.html">
+		<img src="../../common/imgs/logo-black.svg" alt="remain"><br>
+	</a>
+	<button class="btn--nav">
+		<i class="material-icons">menu</i>
+	</button>
+</header>
+<header class="header">
+	<div class="header--overflow">
+	    <div class="header__logo--container">
+	        <a href="../../index.html" class="header__logo">
+		        <img src="../../common/imgs/logo-black.svg"><br>
+		        <strong>STYLE GUIDE</strong>
+	        </a>
+			<p class="header__ver">Ver.1 2019.06.01</p>        
+	    </div>
+	    <div class="nav--section">
+	        <ul class="nav">
+	            <li class="nav__menu--lg">
+	                <strong class="nav__title">해상도와 그리드시스템</strong>
+	                <ul class="nav--dropdown">
+	                    <li class="nav__menu--md">
+	                    	<a href="resolution-rasterized.html" class="nav__menu-label resolution-rasterized--active">해상도와 래스터화</a>
+	                    </li>
+	                    <li class="nav__menu--md">
+	                    	<a href="resolution-kinds.html" class="nav__menu-label resolution-kinds--active">해상도 종류</a>
+	                    </li>
+	                    <li class="nav__menu--md">
+	                    	<a href="ratio-design.html" class="nav__menu-label ratio-design--active">해상도에 따른 배율디자인</a>
+	                    </li>
+	                    <li class="nav__menu--md">
+	                        <a href="gridsystem.html" class="nav__menu-label gridsystem--active">그리드시스템</a>
+	                    </li>
+	                    <li class="nav__menu--md">
+	                    	<a href="responsive-gridsystem.html" class="nav__menu-label responsive-gridsystem--active">반응형 그리드시스템</a>
+	                    </li>
+	                    <li class="nav__menu--md">
+	                    	<a href="spacing-method.html" class="nav__menu-label spacing-method--active">간격 시스템</a>
+	                    </li>
+	                </ul>
+	            </li>
+	        </ul>
+	    </div>
+	    <div class="nav--section">
+	        <ul class="nav">
+	            <li class="nav__menu--lg">
+	                <strong class="nav__title">타이포그래피</strong>
+	                <ul class="nav--dropdown">
+	                    <li class="nav__menu--md">
+	                        <a href="../typo/font-unit.html" class="nav__menu-label font-unit--active">폰트 단위</a>
+	                    </li>
+	                    <li class="nav__menu--md">
+	                        <a href="../typo/font-size-standard.html" class="nav__menu-label font-size-standard--active">문단 크기 선정기준</a>
+	                    </li>
+	                    <li class="nav__menu--md">
+	                        <a href="../typo/font-size.html" class="nav__menu-label font-size--active">폰트 크기 및 두께</a>
+	                    </li>
+	                    <li class="nav__menu--md">
+	                        <a href="../typo/font-color.html" class="nav__menu-label font-color--active">폰트 컬러</a>
+	                    </li>
+	                    <li class="nav__menu--md">
+	                        <a href="../typo/line-height.html" class="nav__menu-label line-height--active">폰트 행간</a>
+	                    </li>
+	                    <li class="nav__menu--md">
+	                        <a href="../typo/writing-length-br.html" class="nav__menu-label writing-length-br--active">글자길이와 줄바꿈 기준</a>
+	                    </li>
+	                    <li class="nav__menu--md">
+	                        <a href="../typo/kr-en.html" class="nav__menu-label kr-en--active">한글과 영문 조합</a>
+	                    </li>
+	                </ul>
+	            </li>
+	        </ul>
+	    </div> 
+	    <div class="nav--section">
+	        <ul class="nav">
+	            <li class="nav__menu--lg">
+	                <strong class="nav__title">컬러</strong>
+	                <ul class="nav--dropdown">
+	                    <li class="nav__menu--md">
+		                    <a href="../color/brand-color.html" class="nav__menu-label brand-color--active">브랜드 컬러</a>
+		                </li>
+	                    <li class="nav__menu--md">
+		                    <a href="../color/color-grayscale.html" class="nav__menu-label color-grayscale--active">그레이스케일</a>
+		                </li>	                
+	                    <li class="nav__menu--md">
+	                    	<a href="../color/system-color.html" class="nav__menu-label system-color--active">시스템 컬러</a>
+	                    </li>
+	                    <li class="nav__menu--md">
+	                    	<a href="../color/color-usage.html" class="nav__menu-label color-usage--active">컬러 사용과 용도</a>
+	                    </li>
+	                    <li class="nav__menu--md">
+	                    	<a href="../color/color-wraning.html" class="nav__menu-label color-wraning--active">컬러 사용시 주의점</a>
+	                    </li>
+	<!--
+	                    <li class="nav__menu--md">
+	                    	<a href="/styleguide/content/color/color-palette.php" class="nav__menu-label color-palette--active">컬러 팔레트</a>
+	                    </li>
+	-->
+	                </ul>
+	            </li>
+	        </ul>
+	    </div> 
+	     <div class="nav--section">
+	        <ul class="nav">
+	            <li class="nav__menu--lg">
+	                <strong class="nav__title">아이콘</strong>
+	                <ul class="nav--dropdown">
+	                    <li class="nav__menu--md">
+	                    	<a href="../icon/icon-kinds.html" class="nav__menu-label icon-kinds--active">아이콘 종류</a>
+	                    </li>
+	                    <li class="nav__menu--md">
+	                    	<a href="../icon/icon-size.html" class="nav__menu-label icon-size--active">아이콘 크기</a>
+	                    </li>
+	                    <li class="nav__menu--md">
+	                    	<a href="../icon/grid-keyline.html" class="nav__menu-label grid-keyline--active">그리드 및 키라인</a>
+	                    </li>
+	                    <li class="nav__menu--md">
+	                    	<a href="../icon/grid-structure.html" class="nav__menu-label grid-structure--active">아이콘 구조</a>
+	                    </li>
+	                    <li class="nav__menu--md">
+	                    	<a href="../icon/icon-line.html" class="nav__menu-label icon-line--active">아이콘 선</a>
+	                    </li>
+	                    <li class="nav__menu--md">
+	                    	<a href="../icon/icon-color.html" class="nav__menu-label icon-color--active">아이콘 색상</a>
+	                    </li>                                        
+	                </ul>
+	            </li>
+	        </ul>
+	    </div> 
+	    <div class="nav--section">
+	        <ul class="nav">
+	            <li class="nav__menu--lg">
+	                <strong class="nav__title">컴포넌트</strong>
+	                <ul class="nav--dropdown">
+	                    <li class="nav__menu--md">
+	                    	<a href="../component/component-understanding.html" class="nav__menu-label component-understanding--active">컴포넌트의 이해</a>
+	                    </li>
+	                    <li class="nav__menu--md">
+	                    	<a href="../component/component-problem.html" class="nav__menu-label component-problem--active">컴포넌트 시스템의 문제점</a>
+	                    </li>
+	                    <li class="nav__menu--md">
+	                    	<a href="../component/component-core.html" class="nav__menu-label component-core--active">컴포넌트 코어 시스템</a>
+	                    </li>
+	                </ul>
+	            </li>
+	        </ul>
+	    </div>
+	    <div class="nav--section">
+	        <ul class="nav">
+	            <li class="nav__menu--lg">
+	                <strong class="nav__title">시각적 계층구조</strong>
+	                <ul class="nav--dropdown">
+	                    <li class="nav__menu--md">
+	                    	<a href="../visual-hierarchy/visual-hierarchy.html" class="nav__menu-label visual-hierarchy--active">버튼의 시각적 계층구조</a>
+	                    </li>
+	                </ul>
+	            </li>
+	        </ul>
+	    </div>
+	</div>
+    <button class="btn--hidden">
+    	<i class="material-icons icon--hidden">chevron_left</i>
+    </button>
+    <button class="nav--hidden">
+    	<i class="material-icons icon--hidden">close</i>
+    </button>    
+</header>        <div class="main">
+            <div class="main__content layout--center">
+                <section class="content">
+                    <h2>해상도에 따른 배율디자인</h2>
+                    <p>
+	                    디스플레이 기술이 발전함에 따라 고밀도 디스플레이(레티나 디스플레이)가 등장하면서 디바이스 해상도는 발전했습니다. 
+	                    (래스터화 단계와 해상도의 종류 참고) 같은 크기의 물리적 공간 안에 더 많은 픽셀을 넣을 수 있게 되었고, 화면은 더 선명하게 표현할 수 있게 되었습니다.
+	                </p>
+	                
+                    <img src="responsive-grid-imgs/grid_ex10.png" class="content__image">
+                    
+                    <p>
+	                    위의 이미지를 보면 픽셀(px)크기는 정해진 크기가 아니라, 픽셀 밀도가 높을수록 픽셀 크기는 작아집니다. 아래의 이미지처럼 같은 1픽셀(px)인데, 
+	                    크기가 차이나는 현상이 발생합니다. 디자인 해놓은 것들이 50% 줄어서 보이는 이유는 픽셀개념으로 디자인되었기 때문에 문제가 발생합니다.
+	                </p>
+					
+					<img src="responsive-grid-imgs/grid_ex11.png" class="content__image">
+					<p>이런 현상으로 인해 “밀도 독립적 픽셀(dp)”개념이 등장합니다. </p>
+                    
+                    <div class="section--border">
+                    	<h3>px, dp의 개념</h3>				
+						<p>
+							스크린은 픽셀(px)로 구성됩니다. 픽셀을 기준으로 디자인하면 디바이스의 픽셀 밀도(ppi = 1inch 공간 안에 표시되는 픽셀 수)로 인해 의도한 
+							것과 다르게 작거나 크게 표시될 수 있습니다. Android에서는 어떤 화면에서도 같은 크기로 보이도록 dp(ios에서는 pt)단위를 사용합니다. 
+							그래픽 디자인 툴은 보통 1px = 1dp로 설정되어 따로 설정을 변경할 필요는 없습니다.
+						</p>
+						
+						<img src="responsive-grid-imgs/grid_ex12.png" class="content__image">
+						<img src="responsive-grid-imgs/grid_ex13.png" class="content__image">
+
+						<p>
+							고밀도 디스플레이에서 줄어든 이미지를 dp 개념에 맞춰 강제로 크기를 늘리면 위의 이미지와 같이 이미지가 깨지는 현상이 발생합니다. 
+							(사진의 크기를 확대하면 깨지는 것과 같습니다.) 그러므로 각기 다른 디바이스에 디자인을 적용하기 위해 디자이너는 원래크기(1배)는 물론 2배, 
+							3배, 4배의  다양한 크기로 작업해야 합니다. 효율적으로 작업하기 위해선 각각 크기별로 디자인을 따로 할 수 없고, 작은 이미지를 키우면 깨지는 
+							현상이 발생하므로 애초에 가장 큰 이미지로 제작을 하여 각각의 디바이스에 대응을 해야 합니다. 
+						</p>
+
+						<img src="responsive-grid-imgs/grid_ex14.png" class="content__image">
+					
+						<p>
+							물리적으로 보이는 이미지의 크기는 같으나 해상도는 디바이스 별로 다르므로 이미지 역시 디바이스에 맞춰서 2배, 3배, 4배… 로 작업을 해야 합니다. 
+							다양한 이미지 작업을 해야만 해상도가 큰 디바이스에서 봤을 때 깨지는 현상을 방지할 수 있습니다.  결국 고밀도 디스플레이를 고려하여 디자인(아이콘, 
+							이미지 등)의 픽셀 사이즈를 결정해야 합니다.
+						</p>					
+                    </div>
+                    
+                    <div class="section--border">                    
+						<h3>8배수 디자인</h3>
+						<p>
+							배율디자인에서 아이콘, 이미지 등의 픽셀크기가 8의 배수로 하는 것이 좋다는 이야기가 나옵니다.
+							<br>
+							왜 8의 배수의 픽셀일까요?
+							<br>
+							디바이스가 그래픽을 렌더링하는데 홀수의 경우 픽셀이 깨지게 되는 등의 어려움이 있기 때문에 짝수로 처리 되어야합니다. 8의 경우 1.5배 등과 
+							같이 0.5배시에도 소수가 아닌 정수의 값이 유지됩니다.
+							<br>
+							<br>
+							각 해상도 밀도들은 0.5 : 1 : 1.5 : 2 : 3 : 4의 비율을 가지고 있습니다. 따라서 4.0 xxxhdpi 기반으로 디자인 한다면 아래와 같이 각 
+							밀도별로 크기를 변환할 수 있습니다.
+							<br>
+							<br>
+							1.0 mdpi = 4.0 xxxhdpi 기반에서 디자인 한 픽셀사이즈 x 0.25<br>
+							1.5 hdpi = 4.0 xxxhdpi 기반에서 디자인 한 픽셀사이즈 x 0.375<br>
+							2.0 xhdpi = 4.0 xxxhdpi 기반에서 디자인 한 픽셀사이즈 x 0.5<br>
+							3.0 xxhdpi = 4.0 xxxhdpi 기반에서 디자인 한 픽셀사이즈 x 0.75
+						</p>
+							<br>
+							<br>
+							<br>	
+
+						<strong>4.0 xxxhdpi 기반에서 8배수에 맞춰 디자인 한 예시</strong>
+						<br>
+						<br>
+						<p>
+							4.0 xxxhdpi 기반에서 32×32px의 아이콘을 만들어 각각의 밀도로 변환(다운사이징)하면<br>
+							1.0 mdpi = 8px<br>
+							1.5 hdpi = 12px<br>
+							2.0 xhdpi = 16px<br>
+							3.0 xxhdpi = 24px  가 됩니다.
+						</p>
+						<img src="responsive-grid-imgs/grid_ex15.png" class="content__image">
+						
+						<br>
+						<br>
+					
+						<strong>4.0 xxxhdpi 기반에서 8배수에 맞춰 디자인 하지 않은 예시</strong>
+
+						<br>
+						<br>
+						
+						<p>
+							4.0 xxxhdpi 기반에서 36×36px의 아이콘을 만들어 각각의 밀도로 변환(다운사이징)하면<br>
+							1.0 mdpi  = 9px<br>
+							1.5 hdpi = 13.5px(!)<br>
+							2.0 xhdpi = 18px<br>
+							3.0 xxhdpi = 27px 이 됩니다.
+						</p>
+						
+						<img src="responsive-grid-imgs/grid_ex16.png" class="content__image">
+						
+						<br>
+						<br>
+						
+						<p>
+							(!) 표시를 해둔 것은 소수점을 가지고 있다는 것을 의미합니다. jpg나 png에서 13.5px의 넓이를 갖는 이미지는 만들 수 없습니다. 
+							만약 13.5×13.5px 크기를 가진 5개의 아이콘을 나란히 놓는다고 하면 합이 최대 67.5px가 되어야 하는데, 14px로 반올림 할 경우 
+							70px까지 커지기 때문입니다. 3배수 기준으로 디자인 할 때에도 마찬가지입니다. 아직 1.5x 디스플레이가 존재하고 있으므로, 모든 디바이스에 
+							대응하기 위해서는 반드시 각 크기, 간격은 8의 배수인 것이 좋습니다. 웹디자인은 가장 큰 사이즈만 제공한 후 디바이스에서 그래픽을 랜더링하기 
+							때문에 8배수 디자인을 지키는 것이 좋습니다. 
+						</p>
+                    </div>
+                    
+					<div class="section--border">
+						<h3>효율성을 위한 다운사이징</h3>
+						<p>
+							이론적으로는 4.0 xxxhdpi기반에서 디자인 하는 것이 맞지만 2.0 xhdpi기반에서 스마트폰 기준으로 사람이 구분 가능한 픽셀밀도인 약 430ppi를 
+							충족하고 있으므로 효율성을 위해 2.0 xhdpi 기반에서 디자인하여 사용합니다. 다만, 확대 시에는 차이가 있습니다.
+						</p>
+					</div>
+					
+					<div class="section--border">					
+						<h3>2의 배수, 4의 배수 디자인은 안 되나요?</h3>
+						<p>
+							8의 배수는 가장 큰 기본 배수고 8이 포함하는 2와 4의 배수 디자인도 물론 가능합니다. 8의 경우가 모든 디바이스의 옵션이 가능하기 때문입니다. 
+							디자인 작업 시 꼭 8배수를 지키지 않아도 되며, 2배수, 4배수도 활용하여 유연하게 디자인 하는 것을 권장합니다.
+							(2배수, 4배수가 불가능한 옵션인 1.5 hdpi 밀도의 주요 디바이스로는 Microsoft사의 노트북 surface시리즈가 있습니다.)
+						</p>
+					</div>
+					
+					<div class="next-posting">
+						<a href="gridsystem.html" class="btn--next">NEXT GUIDE</a>
+					</div>
+                </section>
+            </div>
+        </div>
+    </div>
+</main>
+		<footer class="footer">
+			<a href="../../index.html">
+				<img src="../../common/imgs/logo-black.svg" class="footer__logo" alt="remain">
+			</a>
+			
+			<p>디자이너를 위한 디자인 플랫폼 리메인</p>
+			<p>Copyright 2019 Remain Styleguide unit team. All rights reserved.</p>
+			
+			<div class="faliysite">
+				<strong>Family Site.</strong>
+				<a href="http://remain.co.kr/" target="_blank">Remain</a>
+			</div>			
+		</footer>
+	
+        <script src="../../js/jquery-1.12.3.min.js"></script>
+        <script src="../../js/main.js"></script>
+    </body>
+
+<!-- Mirrored from styleguide.co.kr/content/resolution-grid/ratio-design.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Aug 2020 11:41:24 GMT -->
+</html>
